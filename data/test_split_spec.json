@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "y_col": "classification_label",
+  "test_pos": 1000,
+  "test_neg_per_pos": 1,
+  "kfold": 5,
+  "strategy": "fixed_test_posneg_then_stratified_kfold_on_remaining",
+  "n_total": 515160,
+  "n_test": 2000,
+  "n_remaining": 513160,
+  "test_pos_actual": 1000,
+  "test_neg_actual": 1000
+}
